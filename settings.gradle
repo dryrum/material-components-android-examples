@@ -1,0 +1,8 @@
+
+include ":owl"
+include ":material-theme-builder"
+include ":reply"
+
+project(':owl').projectDir = new File(settingsDir, "Owl/app")
+project(':material-theme-builder').projectDir = new File(settingsDir, "MaterialThemeBuilder/app")
+project(':reply').projectDir = new File(settingsDir, "Reply/app")
